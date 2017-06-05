@@ -49,3 +49,27 @@ var gameOver = false
 let cityName: String = "San Francisco"
 let number: Double = 3
 print(number)
+
+let temperature = 100
+if temperature >= 10 {
+    print("The water is boiling.")
+} else {
+    print("The water is not boiling.")
+}
+
+var isSnowing = false
+if !isSnowing {
+    print("It's not snowing.")
+}
+
+let numberOfWheels = 10
+switch numberOfWheels {
+case 1:
+    print("Unicycle")
+case 2:
+    print("Bicycle")
+case 3:
+    print("Tricycle")
+default:
+    print("Unknown")
+}
